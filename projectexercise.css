@@ -1,3 +1,6 @@
+h2 {
+  margin-bottom: 7px;
+}
 .emma {
   width: 200px;
   border-radius: 15px;
@@ -10,7 +13,7 @@
   object-position: center;
   border-width: 2px;
   border-style: solid;
-  border-color: blue;
+  border-color: rgb(75, 102, 255);
 }
 
 .bimpe {
@@ -27,11 +30,12 @@
 }
 
 .shadow {
-  padding: 8px 100px;
+  padding: 15px 180px;
   border: none;
   border-radius: 18px;
   box-shadow: 1px 1px 6px darkgray;
   margin-bottom: 25px;
+  display: block;
   cursor: pointer;
 }
 
@@ -69,4 +73,294 @@
   padding: 10px 105px;
   border: none;
   border-radius: 40px;
+  cursor: pointer;
+}
+
+.black {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: fill;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.question {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  color: grey;
+  margin-right: 100px;
+  vertical-align: middle;
+}
+
+.tweet {
+  background-color: rgb(75, 102, 255);
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.name {
+  display: block;
+  margin-bottom: 3px;
+}
+
+.para {
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.google {
+  width: 200px;
+  margin-bottom: 15px;
+  margin: 0 150px;
+  margin-top: 15px;
+}
+
+::placeholder {
+  font-weight: bold;
+}
+
+.first {
+  width: 100px;
+  padding: 8px;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+}
+
+.second {
+  width: 100px;
+  padding: 8px;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+}
+
+.email-signup {
+  display: block;
+  width: 220px;
+  padding: 8px;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  margin-top: 14px;
+}
+
+.signup-bttn {
+  display: block;
+  color: white;
+  background-color: rgb(75, 102, 255);
+  width: 240px;
+  padding: 8px;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  margin-top: 14px; 
+}
+
+.uber {
+  display: block;
+  margin-bottom: 7px;
+  border: none;
+  background-color: lightgrey;
+  font-size: 11px;
+  width: 250px;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+.bttn-uber1 {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 12px 14px;
+  margin-right: 14px;
+  margin-top: 20px;
+}
+
+.bttn-uber2 {
+  color: black;
+  background-color: lightgrey;
+  border: none;
+  padding: 12px 14px;
+}
+
+.first-d {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+
+.second-d {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.third-d {
+  font-weight: bold;
+  border: 1px solid lightgray;
+  width: 300px;
+  padding: 0 0 15px 15px;
+}
+
+.bttn-d {
+  font-weight: bold;
+}
+
+.forth-d {
+  background-color: black;
+  width: 350px;
+  padding: 1px;
+}
+
+.para1-d {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.para2-d {
+  margin-top: 0;
+  color: darkgray;
+  width: 350px;
+}
+
+.fifth-d {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 0 5px darkgrey;
+}
+
+.black-d {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: fill;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.question-d {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  color: grey;
+  margin-right: 100px;
+  vertical-align: middle;
+}
+
+.tweet-d {
+  background-color: rgb(75, 102, 255);
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.sixth-d {
+  border: 1px solid #ccc;
+  width: 150px;
+  border-radius: 4px;
+  padding-bottom: 5px;
+  display: inline-block;
+  margin-right: 6px;
+  vertical-align: top;
+}
+
+.oncrox {
+  width: 150px;
+}
+
+.croxname {
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 4px;
+  padding-left: 5px;
+}
+
+.friend {
+  font-size: 11px;
+  font-weight: bold;
+  color: darkgrey;
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding-left: 5px;
+}
+
+.addfriend {
+  background-color: rgb(75, 102, 255);
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 0;
+  margin-left: 5px;
+}
+
+.bimpe2 {
+  width: 150px;
+  height: 209px;
+  object-fit: cover;
+}
+
+.bimpe-husby {
+  width: 150px;
+  height: 209px;
+  object-fit: cover;
+}
+
+.adebayo {
+  width: 150px;
+  height: 209px;
+  object-fit: cover;
+}
+
+
+.google-search {
+  text-align: center;
+}
+
+.google1 {
+  width: 200px;
+  margin-bottom: 8px;
+  margin-top: 35px;
+}
+
+.shadow1 {
+  padding: 15px 180px;
+  border: none;
+  border-radius: 18px;
+  box-shadow: 1px 1px 6px darkgray;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.shadow1::placeholder {
+  font-size: 12px;
+  color: darkslategray;
+  position: absolute;
+  left: 10px;
+}
+
+.gu-bttn {
+  padding: 8px 15px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
 }
